@@ -1,7 +1,7 @@
 {
 	"FileVersion" : 3,
 	"Version" : 1,
-	"VersionName" : "1.0",
+	"VersionName" : "0.1",
 	"FriendlyName" : "Windows Media Engine Player",
 	"Description" : "Implements a media player using Windows Media Engine (Windows 8 and DX11 only).",
 	"Category" : "Media Players",
@@ -13,7 +13,7 @@
 	"SupportURL" : "",
 	"EnabledByDefault" : false,
 	"CanContainContent" : false,
-	"IsBetaVersion" : false,
+	"IsBetaVersion" : true,
 	"Installed" : false,
 	"Modules" :
 	[
