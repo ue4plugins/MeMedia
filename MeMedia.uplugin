@@ -1,0 +1,38 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Windows Media Engine Player",
+	"Description" : "Implements a media player using Windows Media Engine (Windows 8 and DX11 only).",
+	"Category" : "Media Players",
+	"CreatedBy" : "Epic Games, Inc.",
+	"CreatedByURL" : "http://epicgames.com",
+	"DocsURL" : "https://forums.unrealengine.com/showthread.php?46879-Media-Framework-Documentation-for-4-5-Preview",
+	"EngineVersion" : "4.13.0",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : false,
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "MeMedia",
+			"Type" : "RuntimeNoCommandlet",
+			"LoadingPhase" : "PreLoadingScreen",
+			"WhitelistPlatforms" : [ "Win32", "Win64" ]
+		},
+		{
+			"Name" : "MeMediaEditor",
+			"Type" : "Editor",
+			"LoadingPhase" : "PostEngineInit"
+		},
+		{
+			"Name" : "MeMediaFactory",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PostEngineInit",
+			"WhitelistPlatforms" : [ "Mac", "Linux", "Win32", "Win64" ]
+		}
+	]
+}
